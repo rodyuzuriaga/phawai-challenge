@@ -170,16 +170,3 @@ imbalanced-learn
 xgboost
 lightgbm
 ```
----
-
-### Tabla de Contenidos del Notebook
-```
-1. Preparación del Notebook  
-2. Análisis Exploratorio de Datos (EDA)  
-3. Preprocesamiento  
-4. Balanceo de Clases  
-5. Entrenamiento del Modelo  
-6. Ensamblaje de Modelos  
-7. Generación de Predicciones  
-8. Visualización de Resultados
-```
