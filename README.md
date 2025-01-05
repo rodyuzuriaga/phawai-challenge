@@ -51,10 +51,10 @@ PhawAI/
 │
 ├── notebooks/               # Notebooks de Jupyter
 │   └── phawai-challenge-rody-uzuriaga.ipynb
-│       ├── EDA.ipynb            # Exploración de datos (EDA)
-│       ├── Preprocessing.ipynb  # Limpieza y preprocesamiento
-│       ├── Modeling.ipynb       # Entrenamiento y evaluación de modelos
-│       └── Submission.ipynb     # Generación de archivo de predicción
+│       ├── EDA              # Exploración de datos (EDA)
+│       ├── Preprocessing    # Limpieza y preprocesamiento
+│       ├── Modeling         # Entrenamiento y evaluación de modelos
+│       └── Submission       # Generación de archivo de predicción
 │
 ├── results/                 # Resultados y archivos de salida
 │   └── resultados.csv       # Archivo de predicciones para Kaggle
