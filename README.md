@@ -51,10 +51,14 @@ PhawAI/
 │
 ├── notebooks/               # Notebooks de Jupyter
 │   └── phawai-challenge-rody-uzuriaga.ipynb
-│       ├── EDA.ipynb            # Exploración de datos (EDA)
-│       ├── Preprocessing.ipynb  # Limpieza y preprocesamiento
-│       ├── Modeling.ipynb       # Entrenamiento y evaluación de modelos
-│       └── Submission.ipynb     # Generación de archivo de predicción
+│       ├── 1. Preparación del Notebook
+│       ├── 2. Análisis Exploratorio de Datos (EDA)
+│       ├── 3. Preprocesamiento
+│       ├── 4. Balanceo de Clases
+│       ├── 5. Entrenamiento del Modelo
+│       ├── 6. Ensamblaje de Modelos
+│       ├── 7. Generación de Predicciones
+│       └── 8. Visualización de Resultados
 │
 ├── results/                 # Resultados y archivos de salida
 │   └── resultados.csv       # Archivo de predicciones para Kaggle
@@ -149,7 +153,7 @@ El desempeño del modelo se evalúa usando el **F1-score**, ideal para datasets 
 ## 📚 Referencias
 
 1. [Dataset BRFSS 2022](https://www.cdc.gov/brfss/annual_data/annual_2022.html)
-2. [Kaggle Competition](https://www.kaggle.com/competitions/phawai-prediccion-enfermedades-coronarias)
+2. [Kaggle Competition](https://www.kaggle.com/competitions/prediccion-de-sufrir-enfermedades-coronarias)
 3. Breiman, L. (2001). Random Forests. *Machine Learning, 45(1), 5-32*.
 4. Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. *Proceedings of the 22nd ACM SIGKDD*.
 
@@ -165,17 +169,4 @@ scikit-learn
 imbalanced-learn
 xgboost
 lightgbm
-```
----
-
-### Tabla de Contenidos del Notebook
-```
-1. Preparación del Notebook  
-2. Análisis Exploratorio de Datos (EDA)  
-3. Preprocesamiento  
-4. Balanceo de Clases  
-5. Entrenamiento del Modelo  
-6. Ensamblaje de Modelos  
-7. Generación de Predicciones  
-8. Visualización de Resultados
 ```
